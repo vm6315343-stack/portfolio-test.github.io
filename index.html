@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Data Science Student</title>
+    <!-- Tailwind CSS for modern styling -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans">
+
+    <!-- Header / Navbar -->
+    <nav class="max-w-5xl mx-auto p-5 flex justify-between items-center border-b border-slate-800">
+        <span class="text-xl font-bold text-indigo-400">Priya's Portfolio</span>
+        <div class="space-x-6">
+            <a href="#about" class="hover:text-indigo-400 transition">About</a>
+            <a href="#skills" class="hover:text-indigo-400 transition">Skills</a>
+            <a href="#projects" class="hover:text-indigo-400 transition">Projects</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="about" class="max-w-4xl mx-auto my-20 px-5 text-center md:text-left md:flex items-center justify-between gap-10">
+        <div class="space-y-4 max-w-xl">
+            <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight">Hi, I'm <span class="text-indigo-400">[Her Name]</span></h1>
+            <p class="text-xl text-slate-400 font-medium">Data Science Student & Aspiring Data Analyst</p>
+            <p class="text-slate-300 leading-relaxed">I love turning raw, messy data into actionable insights. Currently focusing on Machine Learning, Statistical Modeling, and Python programming.</p>
+            <div class="pt-2">
+                <a href="mailto:your-email@gmail.com" class="bg-indigo-600 hover:bg-indigo-500 text-white font-semibold px-6 py-2.5 rounded-lg transition shadow-md">Get in Touch</a>
+            </div>
+        </div>
+        <!-- Profile Placeholder -->
+        <div class="mt-10 md:mt-0 flex justify-center">
+            <div class="w-48 h-48 rounded-full bg-slate-800 border-4 border-indigo-500/30 flex items-center justify-center text-slate-500">
+                [Photo Here]
+            </div>
+        </div>
+    </header>
+
+    <!-- Skills Section -->
+    <section id="skills" class="max-w-5xl mx-auto my-20 px-5">
+        <h2 class="text-2xl font-bold mb-8 border-b border-slate-800 pb-2 text-indigo-400">Technical Skills</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <div class="bg-slate-800/50 p-5 rounded-xl border border-slate-800">
+                <h3 class="font-bold text-lg mb-2 text-indigo-300">Languages</h3>
+                <p class="text-slate-400">Python, SQL, R</p>
+            </div>
+            <div class="bg-slate-800/50 p-5 rounded-xl border border-slate-800">
+                <h3 class="font-bold text-lg mb-2 text-indigo-300">Libraries</h3>
+                <p class="text-slate-400">Pandas, NumPy, Scikit-Learn, Matplotlib</p>
+            </div>
+            <div class="bg-slate-800/50 p-5 rounded-xl border border-slate-800">
+                <h3 class="font-bold text-lg mb-2 text-indigo-300">Tools & Environments</h3>
+                <p class="text-slate-400">Git, Jupyter Notebook, VS Code, Google Colab</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="max-w-5xl mx-auto my-20 px-5">
+        <h2 class="text-2xl font-bold mb-8 border-b border-slate-800 pb-2 text-indigo-400">Featured Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            
+            <!-- Project 1 -->
+            <div class="bg-slate-800/40 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between">
+                <div>
+                    <span class="text-xs font-bold text-indigo-400 uppercase tracking-wide">Machine Learning</span>
+                    <h3 class="text-xl font-bold mt-1 mb-3">Project Title 1 (e.g., Sales Prediction Model)</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">A brief 2-sentence description of what the project does, the dataset used, and the final accuracy or result achieved.</p>
+                </div>
+                <div class="flex gap-4 text-sm font-semibold">
+                    <a href="#" class="text-indigo-400 hover:underline">View Code &rarr;</a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="bg-slate-800/40 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between">
+                <div>
+                    <span class="text-xs font-bold text-indigo-400 uppercase tracking-wide">Data Analysis</span>
+                    <h3 class="text-xl font-bold mt-1 mb-3">Project Title 2 (e.g., Exploratory Data Analysis)</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">Analyzed a complex dataset to find hidden trends. Cleaned data using Pandas and created beautiful visualizations.</p>
+                </div>
+                <div class="flex gap-4 text-sm font-semibold">
+                    <a href="#" class="text-indigo-400 hover:underline">View Code &rarr;</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="max-w-5xl mx-auto py-10 px-5 border-t border-slate-800 text-center text-sm text-slate-500">
+        <p>&copy; 2026 Designed with ❤️ for Her</p>
+    </footer>
+
+</body>
+</html>
